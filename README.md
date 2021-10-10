@@ -1,6 +1,9 @@
 # MySQL Monitor.md
 
 ### 主要特性
+
+![VERSION](https://img.shields.io/badge/MySQL%20Monitor-1.0.0-blue)
+
 - 没什么特新，纯粹只是想造个轮子
 
 ### 编程语言
