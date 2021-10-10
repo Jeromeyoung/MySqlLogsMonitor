@@ -23,7 +23,7 @@
 
 ### 主界面图片
 
-![MainUI](/ReadMe Picture/MainUI.png)
+![MainUI](https://raw.githubusercontent.com/chk141/MySqlLogsMonitor/main/ReadMe%20Picture/MainUI.png)
 
 #### 文件树
 
