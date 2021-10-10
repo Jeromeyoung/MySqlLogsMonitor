@@ -21,7 +21,12 @@
 - [ ] 对其他数据库的支持
 - [ ] 用Qt或GTK重构UI界面
 
+### 主界面图片
+
+![MainUI](./ReadMe Picture/MainUI.png)
+
 #### 文件树
+
 ```
 .
 ├── MySQLMonitor
