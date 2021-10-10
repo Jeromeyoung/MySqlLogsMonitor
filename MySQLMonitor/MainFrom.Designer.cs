@@ -59,8 +59,8 @@ namespace MySQLMonitor
             this.label5 = new System.Windows.Forms.Label();
             this.TEXTBox_ConnectPort = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.BTN_Search = new System.Windows.Forms.Button();
             this.TEXTBox_SearchStr = new System.Windows.Forms.RichTextBox();
+            this.BTN_Search = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_Logs)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -75,7 +75,6 @@ namespace MySQLMonitor
             this.TEXTBox_ConnectAddress.Name = "TEXTBox_ConnectAddress";
             this.TEXTBox_ConnectAddress.Size = new System.Drawing.Size(150, 21);
             this.TEXTBox_ConnectAddress.TabIndex = 0;
-            this.TEXTBox_ConnectAddress.Text = "192.168.123.88";
             // 
             // label1
             // 
@@ -128,7 +127,6 @@ namespace MySQLMonitor
             this.TEXTBox_Pass.Name = "TEXTBox_Pass";
             this.TEXTBox_Pass.Size = new System.Drawing.Size(150, 21);
             this.TEXTBox_Pass.TabIndex = 4;
-            this.TEXTBox_Pass.Text = "admin141";
             // 
             // label4
             // 
@@ -374,18 +372,6 @@ namespace MySQLMonitor
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "功能区";
             // 
-            // BTN_Search
-            // 
-            this.BTN_Search.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BTN_Search.Enabled = false;
-            this.BTN_Search.Location = new System.Drawing.Point(8, 116);
-            this.BTN_Search.Name = "BTN_Search";
-            this.BTN_Search.Size = new System.Drawing.Size(200, 23);
-            this.BTN_Search.TabIndex = 1;
-            this.BTN_Search.Text = "搜索(&H)";
-            this.BTN_Search.UseVisualStyleBackColor = true;
-            this.BTN_Search.Click += new System.EventHandler(this.BTN_Search_Click);
-            // 
             // TEXTBox_SearchStr
             // 
             this.TEXTBox_SearchStr.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -398,6 +384,18 @@ namespace MySQLMonitor
             this.TEXTBox_SearchStr.Text = "";
             this.TEXTBox_SearchStr.Enter += new System.EventHandler(this.TEXTBox_SearchStr_Enter_1);
             this.TEXTBox_SearchStr.Leave += new System.EventHandler(this.TEXTBox_SearchStr_Leave_1);
+            // 
+            // BTN_Search
+            // 
+            this.BTN_Search.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.BTN_Search.Enabled = false;
+            this.BTN_Search.Location = new System.Drawing.Point(8, 116);
+            this.BTN_Search.Name = "BTN_Search";
+            this.BTN_Search.Size = new System.Drawing.Size(200, 23);
+            this.BTN_Search.TabIndex = 1;
+            this.BTN_Search.Text = "搜索(&H)";
+            this.BTN_Search.UseVisualStyleBackColor = true;
+            this.BTN_Search.Click += new System.EventHandler(this.BTN_Search_Click);
             // 
             // MainFrom
             // 
