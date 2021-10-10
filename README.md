@@ -23,7 +23,7 @@
 
 ### 主界面图片
 
-![MainUI](./ReadMe Picture/MainUI.png)
+![MainUI](/ReadMe Picture/MainUI.png)
 
 #### 文件树
 
